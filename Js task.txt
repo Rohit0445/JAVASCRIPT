@@ -1,0 +1,49 @@
+Rohit Meena
+p53
+
+
+1= HELLO WORLD
+
+2= S
+
+3= Learn JS JS
+
+4= trim me
+
+5= ron
+
+6= "split" , "this" 
+
+7= harrypotter
+
+8= 5
+
+9= 7
+
+10= 4
+
+11 = 10
+
+12= -3
+
+13= 8
+
+14 = 7
+
+15= let d = newDate(2025)
+    console.log(2050-d , "years left to 2050")
+
+16=  let price= promt("Enter price of an item")
+
+    let tax= 18*price/100;
+    console.log("total price after adding 18%tax " , tax+price);
+
+17=  let d= newDate()
+     
+     const month = d.getMonth()
+     console.log(month+1);
+    
+    
+
+
+

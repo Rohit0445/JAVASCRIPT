@@ -32,8 +32,8 @@ m = Math.floor(Math.random()*100)+1
 // console.log(pi,a,b,c,d,e,f,g,h,i,j,k,l,m)
 
 
-let x = Math.floor(Math.random()*100);
-let y = Math.floor(Math.random()*50);
+let x = Math.floor(Math.random()*101);
+let y = Math.floor(Math.random()*51);
 
 let sum = x+y;
 let diff = x-y;
@@ -61,7 +61,7 @@ let date = new Date();
 
 //new Date () , it will retyrns the current date 
 
-// new Date (year,month,day,hour,minute,secon,millisecond )--from 1 jan of 1970 
+// new Date (year,month,day,hour,mi0nute,secon,millisecond )--from 1 jan of 1970 
 
 //new Date(Date string)
 

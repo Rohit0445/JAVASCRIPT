@@ -89,4 +89,4 @@ let [a,b,c,d,e,f,g]=arr
 let ans = a*b*c*d*e*f*g
 
 console.log(ans);
-    
+       

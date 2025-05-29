@@ -149,3 +149,5 @@ document.getElementById("mytable").innerHTML = table
  })
 
  console.log(newarr);
+
+ 

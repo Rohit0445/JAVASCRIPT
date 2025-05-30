@@ -88,66 +88,137 @@
 
 //  map( ) method 
 
-const fruits = ["apple","cherry","kiwi","grapes"];
+// const fruits = ["apple","cherry","kiwi","grapes"];
 
-let text = "<ul>"
+// let text = "<ul>"
 
-fruits.map(function(x){
-    text += `<li>${x}</li>`;
-});
+// fruits.map(function(x){
+//     text += `<li>${x}</li>`;
+// });
 
-text += "</ul>";
+// text += "</ul>";
 
-document.getElementById("demo").innerHTML = text;
-
-
-const person = [{
-    name : "Rohit",
-    age : 24
-},
-{
-    name : "Suryansh",
-    age : 24
-},
-
-{
-    name : "Shreyansh",
-    age : 24
-}
-];
-
-let table = 
-   `<table border + 1px>
-   <tr>
-   <th>Nmae</th> 
-   <th>Age</th>
-   </tr> `;
+// document.getElementById("demo").innerHTML = text;
 
 
-   person.map((x)=>{
-    table+= `
-    <tr>
-        <td>${x.name}</td>
-        <td>${x.age}</td>
-    </tr>  
-    `
-   })
+// const person = [{
+//     name : "Rohit",
+//     age : 24
+// },
+// {
+//     name : "Suryansh",
+//     age : 24
+// },
 
-table += "</table>"
+// {
+//     name : "Shreyansh",
+//     age : 24
+// }
+// ];
 
-document.getElementById("mytable").innerHTML = table
+// let table = 
+//    `<table border + 1px>
+//    <tr>
+//    <th>Nmae</th> 
+//    <th>Age</th>
+//    </tr> `;
 
 
-// filter   
+//    person.map((x)=>{
+//     table+= `
+//     <tr>
+//         <td>${x.name}</td>
+//         <td>${x.age}</td>
+//     </tr>  
+//     `
+//    })
 
- const number =[10,20,30,4050,60,70,809,0,9]
+// table += "</table>"
 
- const newarr = number.filter(function(x){
-    if(x>30){
-        return x
-    }
- })
+// document.getElementById("mytable").innerHTML = table
 
- console.log(newarr);
+
+// // filter   
+
+//  const number =[10,20,30,4050,60,70,809,0,9]
+
+//  const newarr = number.filter(function(x){
+//     if(x>30){
+//         return x
+//     }
+//  })
+
+//  console.log(newarr);
 
  
+
+// REUCE function
+
+// const number = [123,23,432];
+
+// const value = number.reduce(myfunction);
+
+// function myfunction(total, num){
+//     return total+num
+// }
+
+// console.log(value);
+
+
+
+// const num = [1,2,3,4,5]
+// len = num.length
+// let x = 0
+// function sum(){
+//     for (let i=0;i<len;i++){
+//         for(let j=1;j<len;j++){
+//              x =num[i] + num[j]
+//         }
+//     }
+
+// console.log(x);
+// }
+
+// sum()
+
+const num = [1,2,3,4,5]
+
+let sum=0
+for (let x in num){
+    sum += num[x]
+}
+
+console.log(sum);
+
+
+
+const fruits = ["mango","apple","papaya","grapes","orange"]
+
+console.log(fruits[2]);
+
+fruits.shift()
+
+console.log(fruits);
+
+let y = fruits.includes("apple")
+console.log(y);
+
+for (let a in fruits){
+    console.log(fruits[a]);
+}
+
+let person = {
+    name : "rohit",
+    age : 25
+}
+
+console.log(person.name);
+
+let update = {
+    city : "bhopal"
+}
+
+person.city = "bhopal"
+
+console.log(person);
+

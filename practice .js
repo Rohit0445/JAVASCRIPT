@@ -19,24 +19,24 @@
 // }
 
 
-let str = "my name is rohit and i am stadying in cybrom "
-let len = str.length
-// console.log(len);
-// let newstr = str.split("")
-let count = 0
-// console.log(newstr);
- let vowel = ["a","e","i","o","u"]
+// let str = "my name is rohit and i am stadying in cybrom "
+// let len = str.length
+// // console.log(len);
+// // let newstr = str.split("")
+// let count = 0
+// // console.log(newstr);
+//  let vowel = ["a","e","i","o","u"]
 
- for (let i=str[0] ; i<=len;i++){
-    if(i==vowel[0] || i==vowel[1] || i==vowel[2] || i==vowel[3] ||i==vowel[5]){
+//  for (let i=str[0] ; i<=len;i++){
+//     if(i==vowel[0] || i==vowel[1] || i==vowel[2] || i==vowel[3] ||i==vowel[5]){
         
-        count += 1
-    }
- }
+//         count += 1
+//     }
+//  }
 
- console.log(count);
+//  console.log(count);
 
 
-
+ 
 
 

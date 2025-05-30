@@ -1,0 +1,81 @@
+que 1= find the length of the string by using .length() function 
+let str = "rohit"
+let len = str.length 
+output = 5
+
+que 2= let str = "rohit"
+str = str.touppercase()
+console.log(str)
+
+que 3= by using .include() function
+let str = "rohit meena"
+let len = str.include("meena") 
+output = True
+
+que 4= let str = "hello world"
+
+let x = str.slice(5)
+console.log(x)
+
+que5 = str.trim() removes the spaces from the front and the last of thr string
+
+que 6 = slice() extract the specific word from the string starts from the index value passes by the user and end to that index value passes by the user
+        and substring() does the same as slice but it changes the actual string 
+
+
+que 7= Math.floor() returns the round of vallue 
+example = 7.6
+output = 8 
+
+que8 = let num = Math.random()
+console.log(num)
+
+que 9 = let arr = [4,7,1,9]
+let len = arr.length
+let max = 0
+for (let i =0 ; i<len ; i++){
+    if(max<arr[i]){
+        max = arr[i]
+    }
+
+}
+
+console.log(max)
+
+
+que 10 = Math.round() returns the round of value and Math.ceil() reurns the number in inteager form 
+
+que 11= random value between 10-20
+
+function random(){
+    let num = Math.floor(Math.random()*10+10)
+    console.log(num)
+}
+ random()
+
+que 12 = Math.abs(-42) it returns 42
+
+que 14 = by using arr.pop() method  
+
+que 15 = let arr = [9,8,7,6,20,4,3,2,1]
+let len = arr.length
+
+for (let i=0;i<len;i++){
+    for (let j=1 ;j<len;j++){
+         if(arr[i]<arr[j]){
+        temp = arr[i]
+        arr[i] = arr[j]
+        arr[j] = temp
+        arr
+         }
+   
+
+    }   
+}
+
+que 16= arr.splice() extract an element from specific index but doest not accept the negative indexing 
+
+
+
+
+

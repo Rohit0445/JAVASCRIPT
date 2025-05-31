@@ -48,14 +48,14 @@
 
 // 11. Write a Javascript program to find the sum of the values of an array?
 
-let arr = [1,2,5,4,5];
-let x = arr.length
-let ans = 0
-for(let i=arr[0];i<=x;i++){
-    ans+=i
-}
+// let arr = [1,2,5,4,5];
+// let x = arr.length
+// let ans = 0
+// for(let i=arr[0];i<=x;i++){
+//     ans+=i
+// }
 
-console.log(ans);
+// console.log(ans);
 
 // 12. Write a Javascript program to check the given string is palindrome or not?
 
@@ -92,4 +92,3 @@ console.log(ans);
 //     console.log(year,"not a leap year");
 // }
 
-  

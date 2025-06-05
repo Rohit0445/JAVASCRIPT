@@ -60,7 +60,7 @@
 // 12. Write a Javascript program to check the given string is palindrome or not?
 
 // let str = prompt("Enter an string : ");
-// let len = str.length
+// let len = str.length 
 // console.log(len);
 // let rev = str.slice(-1,-(len))
 // console.log(rev);

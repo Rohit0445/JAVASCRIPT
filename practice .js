@@ -37,6 +37,10 @@
 //  console.log(count);
 
 
- 
+//  sidharth sir k questions 
+
+let age = prompt("Enter your age : ")
+
+(age >=18)?alert("you are elligible"):alert("you are not elligible");
 
 

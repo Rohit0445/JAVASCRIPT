@@ -41,6 +41,6 @@
 
 let age = prompt("Enter your age : ")
 
-(age >=18)?alert("you are elligible"):alert("you are not elligible");
+(age >=18)?console.log("you are elligible"):console.log("you are not elligible");
 
 

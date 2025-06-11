@@ -6,45 +6,49 @@
     <title>Document</title>
 </head>
 <body>
-    <table border="1" align="center" cellspacing="10px" cellpadding="10px">
+    <link rel="stylesheet" href="calculator.css">
+
+     <h1>CALCULATOR</h1>
+
+    <table id="table" border="1" align="center" cellspacing="10px" cellpadding="10px" >
 
         <tr>
-            <th colspan="4" id="display"></th>
+            <th colspan="4" id="display" ></th>
 
         </tr>
         <tr>
-            <td onclick="dis('1')">1</td>
-            <td onclick="dis('2')">2</td>
-            <td onclick="dis('3')">3</td>
-            <td onclick="dis('4')">4</td>
+            <td id="btn" onclick="dis('1')">1</td>
+            <td id="btn" onclick="dis('2')">2</td>
+            <td id="btn" onclick="dis('3')">3</td>
+            <td id="btn" onclick="dis('4')">4</td>
         </tr>
 
          <tr>
-            <td onclick="dis('5')">5</td>
-            <td onclick="dis('6')">6</td>
-            <td onclick="dis('7')">7</td>
-            <td onclick="dis('8')">8</td>
+            <td id="btn" onclick="dis('5')">5</td>
+            <td id="btn" onclick="dis('6')">6</td>
+            <td id="btn" onclick="dis('7')">7</td>
+            <td id="btn" onclick="dis('8')">8</td>
         </tr>
 
          <tr>
-            <td onclick="dis('9')">9</td>
-            <td onclick="dis('0')">0</td>
-            <td onclick="dis('00')">00</td>
-            <td onclick="dis('.')">.</td>
+            <td id="btn" onclick="dis('9')">9</td>
+            <td id="btn" onclick="dis('0')">0</td>
+            <td id="btn" onclick="dis('00')">00</td>
+            <td id="btn" onclick="dis('.')">.</td>
         </tr>
 
          <tr>
-            <td onclick="dis('*')">*</td>
-            <td onclick="dis('%')">%</td>
-            <td onclick="dis('/')">/</td>
-            <td onclick="dis('-')">-</td>
+            <td id="btn" onclick="dis('*')">*</td>
+            <td id="btn" onclick="dis('%')">%</td>
+            <td id="btn" onclick="dis('/')">/</td>
+            <td id="btn" onclick="dis('-')">-</td>
         </tr>
 
          <tr>
-            <td >AC</td>
-            <td >DEL</td>
-            <td onclick="dis('+')">+</td>
-            <td onclick="res()">=</td>
+            <td id="btn" onclick="clearDisplay()">AC</td>
+            <td id="btn" onclick="del()">DEL</td>
+            <td id="btn" onclick="dis('+')">+</td>
+            <td id="btn" onclick="res()">=</td>
         </tr>
 
 
@@ -53,6 +57,6 @@
     </table>
 
 
-    <script src="index.html"></script>
+    <script src="calculator.js"></script>
 </body>
 </html>

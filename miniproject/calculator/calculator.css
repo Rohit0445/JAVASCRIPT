@@ -1,0 +1,28 @@
+body{
+    align-items: center;
+}
+
+h1{
+    margin-top: 200px;
+    margin-left: 265px;
+
+}
+
+#table{
+    /* margin: 200px; */
+    background-color: black;
+    color: white;
+    
+}
+
+#btn{
+    background-color: gray;
+    align-items: center;
+    
+}
+
+#display{
+    background-color: aliceblue;
+    color: black;
+    
+}

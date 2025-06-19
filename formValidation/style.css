@@ -1,0 +1,20 @@
+body{
+    background-color: blueviolet;
+    text-decoration: underline;
+po
+}
+
+h1{
+  position:relative;
+  left: 650px;
+}
+
+input{
+    position: relative;
+    left: 200px;
+}
+
+#cpass{
+    position: relative;
+    left: 170px;
+}

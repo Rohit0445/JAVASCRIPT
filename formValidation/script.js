@@ -1,9 +1,9 @@
 let validate=()=>{
-   let Name = document.querySelector("#name").Value.trim()
-   let email = document.querySelector("#email").Value.trim()
-   let number = document.querySelector("#number").Value.trim()
-   let pass = document.querySelector("#pass").Value.trim()
-   let cpass = document.querySelector("#cpass").Value.trim()
+   let Name = document.querySelector("#name").value.trim()
+   let email = document.querySelector("#email").value.trim()
+   let number = document.querySelector("#number").value.trim()
+   let pass = document.querySelector("#pass").value.trim()
+   let cpass = document.querySelector("#cpass").value.trim()
 
 
    let errname = document.querySelector("#errname")
@@ -27,11 +27,34 @@ let validate=()=>{
     return false
    }
 
+   else if(!(email.includes("@") && email.includes(".com"))){
+      erremail.innerHTML="Enter valid Email"
+      return false
+   }
+
 
    else if(number.length!=10){
     errnumber.innerHTML="Please Enter valid number "
     return false
    }
+
+   else if(isNaN(number)){
+      errnumber.innerHTML="Please Enter Only number"
+      return false
+   }
+
+   else if(pass!=cpass){
+      errcpass.innerHTML="password dont match"
+      return false
+   }
+
+   else if(!(pass.match(/[1234567890]/)&&
+             pass.match(/[!@#$%^&*()]/)&&
+            pass.match(/[a-z]/)&&
+         pass.match(/[A-Z]/))){
+            errpass.innerHTML="Please create strong password"
+            return false
+         }
 
 
 }

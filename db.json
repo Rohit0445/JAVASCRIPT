@@ -1,10 +1,32 @@
 {
-
-""
-
-
-
-
-
-
+    "movie":[
+        {
+            "name":"Rohit",
+            "age":25,
+            "mobileno":7999932294,
+            "city":"Bhopal",
+            "checkIn":"15-05-2025",
+            "checkOut":"20-05-2025",
+            "people":4
+        },
+        {
+             "name":"Ajay",
+            "age":25,
+            "mobileno":7999932294,
+            "city":"Bhopal",
+            "checkIn":"10-05-2025",
+            "checkOut":"15-05-2025",
+            "people":6
+        },
+        {
+             "name":"ujjwal",
+            "age":25,
+            "mobileno":7999932294,
+            "city":"Bhopal",
+            "checkIn":"20-05-2025",
+            "checkOut":"25-05-2025",
+            "people":10
+            
+        }
+    ]
 }

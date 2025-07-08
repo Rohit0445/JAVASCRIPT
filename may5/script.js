@@ -8,11 +8,11 @@ b = Math.sign(6); //returns -1 if num is negative other vise returns 1
 
 c = Math.sqrt(49); // returns square root 
 
-d = Math.round(4.567); // returns roundoff value
+d = Math.round(4.567); // returns roundoff value        
 
 e = Math.ceil(4.1); // returns upper value 
 
-f = Math.floor(4.9); // returns actual value 
+f = Math.floor(4.9); // returns actual value         
 
 g = Math.trunc(45.5454);  // returns integer value 
 
